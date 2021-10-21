@@ -424,6 +424,7 @@ if ${git};then
   cd "${repo_dir}/${gitlab_namespace}"
   git clone --mirror "${mirror}" "${project_name}"
   cd "${project_name}"
+  git lfs fetch --all
   #add the gitlab remote
   if ! ${no_remote_set};then
     green_echo "Adding gitlab remote to project." 1>&2

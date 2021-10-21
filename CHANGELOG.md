@@ -1,5 +1,9 @@
 ## gitlab-mirrors v0.6.1
 
+* Fixed GITLFS errors
+
+## gitlab-mirrors v0.6.1
+
 * Fixed referencing v3 API.  See [PR #110][#110]
 
 [#110]: https://github.com/samrocketman/gitlab-mirrors/pull/110
